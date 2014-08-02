@@ -9,5 +9,5 @@ For more themes and install instructions see the [Brackets Themes website](http:
 
 
 
-![Solarized-Light html](https://github.com/chechnyan/Solarized-light/html.PNG)
-![Solarized-Light css](https://github.com/chechnyan/Solarized-Light/css.PNG)
+![Solarized-Light html](https://github.com/chechnyan/Solarized-light/blob/master/html.PNG)
+![Solarized-Light css](https://github.com/chechnyan/Solarized-light/blob/master/css.PNG)
