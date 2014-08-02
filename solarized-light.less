@@ -1,0 +1,97 @@
+@background: #fdf6e3;
+@foreground: #657a81;
+
+/* Code Styling */
+
+.CodeMirror, .CodeMirror-scroll {
+    background-color: @background;
+    color: @foreground;
+}
+
+.CodeMirror-focused .CodeMirror-activeline-background {
+    background: #ece7d5;
+}
+&.show-line-padding .CodeMirror-focused .CodeMirror-activeline-background {
+    box-shadow: inset 15px 0 0 0 #000;
+}
+
+.CodeMirror-focused .CodeMirror-activeline {
+    .CodeMirror-gutter-elt {
+        background: #ece7d5;
+        color: #fff;
+    }
+    .inline-widget .CodeMirror-gutter-elt {
+        color: #657A81;
+      
+    }
+}
+.cm-atom{color:#269186}
+.cm-attribute{color:#93A1A1}
+.cm-string{color:#2AA198}
+.cm-def{color:#9B859D}
+.cm-hr {color: #d68686}
+.cm-number{color: #269186}
+.cm-property {color:#A57800}
+.cm-operator{color:#738A13}
+.cm-variable-2{color:#268BD2}
+.cm-meta{color:#B58900}
+.cm-variable, .cm-variable-3,.cm-bracket {color: @foreground;}
+.cm-comment {color: #93A1A1}
+.cm-error, .cm-minus {color: #dc322f}
+.cm-header {color: #d85896}
+.cm-link {color: #b77fdb; text-decoration: none;}
+.cm-rangeinfo {color: #6c71c4}
+.cm-keyword{color:#b58900}
+.cm-builtin, .cm-quote {color:#738A13}
+.cm-qualifier{color:#738A13}
+.cm-tag{color:#268BD2}
+
+
+/* Extra CSS */
+
+.CodeMirror.find-highlighting div.CodeMirror-selected,
+.CodeMirror .CodeMirror.find-highlighting div.CodeMirror-selected {
+    background: red;
+}
+
+.CodeMirror-cursor {
+    border-left: 1px solid #000 !important;
+}
+
+.CodeMirror-gutters {
+    background-color:  @background;
+    border-right: none;
+}
+
+.CodeMirror-focused .CodeMirror-activeline .CodeMirror-gutter-elt {
+    color: #c0c0c0;
+}
+
+.CodeMirror .CodeMirror-selected {
+    background: #657a81;
+}
+.CodeMirror-focused .CodeMirror-selected {
+    background: #073642;
+}
+
+.CodeMirror-matchingbracket, .CodeMirror-matchingtag {
+    /* Ensure visibility against gray inline editor background */
+    background-color: #bcbcbc;
+    color: @foreground !important;
+}
+
+.CodeMirror-overwrite .CodeMirror-cursor {
+    border-left: none !important;
+    border-bottom: 1px solid #fff;
+}
+
+/* Non-editor styling */
+
+#image-holder,
+#not-editor {
+    background-color:  #ece7d5;
+}
+
+#image-holder {
+    color: @foreground;
+}
