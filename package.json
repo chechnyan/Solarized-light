@@ -1,9 +1,9 @@
 {
     "name": "solarized-light-theme",
     "title": "Solarized-light-Theme",
-    "description": "beautiful selected low contrast color theme for brackets",
+    "description": "beautiful selected low contrast color theme for brackets designed by Ethan Schoonover.",
     "homepage": "https://github.com/chechnyan/Zenburn",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "author": "jafar ali alshishani <chechnyan@inbox.com> ",
     "license": "MIT",
     "theme": {
